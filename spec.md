@@ -106,3 +106,20 @@
 
 - Headers
   - Authorization: `Bearer <token>`
+
+## Join Campaign
+
+- URL
+
+  - `/joincampaign`
+
+- Method
+
+  - `POST`
+
+- Request Body
+
+  - `campaignId ` as int
+
+- Headers
+  - Authorization: `Bearer <token>`
