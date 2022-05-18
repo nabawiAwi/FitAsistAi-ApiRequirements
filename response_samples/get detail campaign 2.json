@@ -16,13 +16,25 @@
     {
       "id": 1,
       "name": "Water any trees near your house",
+      "taskDesc": "Attach the proof by submitting a photo of the tree with indications that it has been watered (wet soil, water drop on the leaf, or anything else.)",
       "completed": true,
       "proofPhotoUrl": "https://cdn.statically.io/og/proof_1.jpg",
+      "proofCaption": "I’ve watered the mango tree in my garden.",
       "completedTimeStamp": "2022-01-08T06:34:18.598Z"
     },
     {
       "id": 2,
+      "name": "Turn off your room lights during the day",
+      "taskDesc": "Attach the proof by submitting a photo of the lamp with indications that it has been turned off.",
+      "completed": true,
+      "proofCaption": "Turned off my bedroom lamp, I opened the window to get a natural light source instead.",
+      "completedTimeStamp": "2022-01-09T06:34:18.598Z"
+    },
+    {
+      "id": 3,
       "name": "Draw a circle on your forehead",
+      "taskDesc": "Attach the proof by submitting a photo of your forehead with a massive permanent circle mark.",
+
       "completed": false
     }
   ]
