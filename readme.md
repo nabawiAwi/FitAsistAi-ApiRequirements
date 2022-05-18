@@ -16,8 +16,8 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
 - Parameters
 
-  1.  `cat` as string, optional. -> category
-  2.  `q` as string, optional. -> queries/keywords
+  - `cat` as string, optional. -> category
+  - `q` as string, optional. -> queries/keywords
 
 - Headers
   - Authorization: `Bearer <token>`
