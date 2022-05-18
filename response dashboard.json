@@ -1,0 +1,36 @@
+{
+  "error": false,
+  "message": "Dashboard fetched successfully",
+  "tasks": [
+    {
+      "id": 1,
+      "campaignId": 200,
+      "name": "Water any trees near your house",
+      "campaignName": "7 Days of Gardening",
+      "campaignEndDate": "2022-01-08T06:34:18.598Z",
+      "tasksLeft": 4,
+      "completed": true
+    },
+    {
+      "id": 2,
+      "campaignId": 201,
+      "name": "Draw a circle on your forehead",
+      "campaignName": "9 Days of Being Useless",
+      "campaignEndDate": "2022-01-08T06:34:18.598Z",
+      "tasksLeft": 4,
+      "completed": false
+    }
+  ],
+  "completedCampaigns": [
+    {
+      "id": 1,
+      "posterUrl": "https://cdn.statically.io/og/food_waste_1.jpg",
+      "title": "No More Food Waste: Hassle-Free Compost",
+      "endDate": "2022-01-08T06:34:18.598Z",
+      "category": ["Air Pollution", "Food Waste"],
+      "participantsCount": 69420,
+      "isTrending": true,
+      "isNew": false
+    }
+  ]
+}

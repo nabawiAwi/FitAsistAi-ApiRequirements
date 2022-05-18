@@ -1,0 +1,16 @@
+{
+  "error": false,
+  "message": "Campaigns fetched successfully",
+  "categories": [
+    {
+      "id": 1,
+      "photoUrl": "https://cdn.statically.io/og/water_pollution.jpg",
+      "name": "Water Pollution"
+    },
+    {
+      "id": 2,
+      "photoUrl": "https://cdn.statically.io/og/air_pollution.jpg",
+      "name": "Air Pollution"
+    }
+  ]
+}
