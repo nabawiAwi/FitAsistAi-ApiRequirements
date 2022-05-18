@@ -123,3 +123,22 @@
 
 - Headers
   - Authorization: `Bearer <token>`
+
+## Edit Profile
+
+- URL
+
+  - `/profile`
+
+- Method
+
+  - `POST`
+
+- Request Body
+
+  - `name` as string, optional
+  - `profilePicture` as file
+
+- Headers
+  - Content-Type: `multipart/form-data`
+  - Authorization: `Bearer <token>`
