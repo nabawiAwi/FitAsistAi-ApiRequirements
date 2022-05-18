@@ -77,8 +77,8 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
 - Request Body
 
-  - `photo` as file
-  - `caption` as string
+  - `photo` as file, optional
+  - `caption` as string, optional
 
 - Headers
   - Content-Type: `multipart/form-data`
