@@ -1,3 +1,9 @@
+# Readme
+
+Dear our cloud computing team, here's the specification of required API endpoints from mobile developer team.
+
+---
+
 ## Browse Campaign
 
 - URL
