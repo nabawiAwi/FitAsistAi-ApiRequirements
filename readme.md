@@ -16,7 +16,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
 - Parameters
 
-  - `cat` as string, optional. -> category
+  - `categoryId` as int, optional. -> category
   - `q` as string, optional. -> queries/keywords
 
 - Headers
@@ -77,6 +77,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
 - Request Body
 
+  - `taskId` as int
   - `photo` as file, optional
   - `caption` as string, optional
 
@@ -131,7 +132,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
 - Headers
   - Authorization: `Bearer <token>`
 
-## Edit Profile
+## Edit Profile (Need Further Discussion)
 
 - URL
 
