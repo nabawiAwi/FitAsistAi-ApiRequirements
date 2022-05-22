@@ -1,9 +1,6 @@
 {
   "error": false,
   "message": "Profile fetched successfully",
-  "name": "Thomas Slebew",
-  "email": "thomas42@gmail.com",
-  "profilePicUrl": "https://cdn.statically.io/og/thomas_slebew.jpg",
   "experience": [
     {
       "categoryName": "Air Pollution",

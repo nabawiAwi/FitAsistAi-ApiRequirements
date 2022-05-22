@@ -20,7 +20,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `q` as string, optional. -> queries/keywords
 
 - Headers
-  - Authorization: `Bearer <token>`
+  - Authorization: `Bearer <idToken>`
 
 ## Dashboard
 
@@ -33,7 +33,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `GET`
 
 - Headers
-  - Authorization: `Bearer <token>`
+  - Authorization: `Bearer <idToken>`
 
 ## Categories
 
@@ -46,7 +46,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `GET`
 
 - Headers
-  - Authorization: `Bearer <token>`
+  - Authorization: `Bearer <idToken>`
 
 ## Campaign Detail
 
@@ -63,7 +63,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `id` as int
 
 - Headers
-  - Authorization: `Bearer <token>`
+  - Authorization: `Bearer <idToken>`
 
 ## Task Completion Proof
 
@@ -83,7 +83,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
 - Headers
   - Content-Type: `multipart/form-data`
-  - Authorization: `Bearer <token>`
+  - Authorization: `Bearer <idToken>`
 
 ## Submit Campaign Completion
 
@@ -100,7 +100,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `campaignId ` as int
 
 - Headers
-  - Authorization: `Bearer <token>`
+  - Authorization: `Bearer <idToken>`
 
 ## Profile
 
@@ -113,7 +113,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `GET`
 
 - Headers
-  - Authorization: `Bearer <token>`
+  - Authorization: `Bearer <idToken>`
 
 ## Join Campaign
 
@@ -130,23 +130,4 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `campaignId ` as int
 
 - Headers
-  - Authorization: `Bearer <token>`
-
-## Edit Profile (Need Further Discussion)
-
-- URL
-
-  - `/profile`
-
-- Method
-
-  - `POST`
-
-- Request Body
-
-  - `name` as string, optional
-  - `profilePicture` as file
-
-- Headers
-  - Content-Type: `multipart/form-data`
-  - Authorization: `Bearer <token>`
+  - Authorization: `Bearer <idToken>`
