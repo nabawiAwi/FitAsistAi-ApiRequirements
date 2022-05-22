@@ -102,11 +102,11 @@ Dear our cloud computing team, here's the specification of required API endpoint
 - Headers
   - Authorization: `Bearer <idToken>`
 
-## Profile
+## Contribution
 
 - URL
 
-  - `/profile`
+  - `/contribution`
 
 - Method
 
