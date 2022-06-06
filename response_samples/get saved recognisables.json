@@ -1,0 +1,12 @@
+{
+  "error": false,
+  "message": "Saved recognisables fetched successfully",
+  "recognisables": [
+    {
+      "id": 1,
+      "savedAt": 1654489810,
+      "label": "Apple___Apple_scab",
+      "confidencePercent": 69
+    }
+  ]
+}

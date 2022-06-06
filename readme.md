@@ -131,3 +131,34 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
 - Headers
   - Authorization: `Bearer <idToken>`
+
+## Get Saved Recognisables
+
+- URL
+
+  - `/savedrecognisables`
+
+- Method
+
+  - `GET`
+
+- Headers
+  - Authorization: `Bearer <idToken>`
+
+## Save Recognisable
+
+- URL
+
+  - `/saverecognisable`
+
+- Method
+
+  - `POST`
+
+- Request Body
+
+  - `label` as string
+  - `confidencePercent` as int (0-100)
+
+- Headers
+  - Authorization: `Bearer <idToken>`
