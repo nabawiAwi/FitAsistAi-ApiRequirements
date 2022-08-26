@@ -1,0 +1,21 @@
+{
+    "error": false,
+    "message": "Reward detail fetched successfully",
+    "id": 1,
+    "bannerUrl": "https://cdn.statically.io/og/cat_rewards_1.jpg",
+    "title": "Diskon 50% Netflix",
+    "pointsNeeded": 500,
+    "validity": "2022-01-08T06:34:18.598Z",
+    "description": "Lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy  text ever since the 1500s.",
+    "termsCondition": [
+        "Lorem Ipsum is simply dummy text of the printing and  typesetting industry.",
+        "Lorem Ipsum is simply dummy text.",
+        "Lorem Ipsum is simply dummy text of the printing."
+    ],
+    "howToUse": [
+        "Lorem Ipsum is simply dummy text of the printing and  typesetting industry.",
+        "Lorem Ipsum is simply dummy text.",
+        "Lorem Ipsum is simply dummy text of the printing."
+    ],
+    "isRedeemed": true
+}

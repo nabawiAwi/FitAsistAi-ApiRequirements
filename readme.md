@@ -268,3 +268,76 @@ Request Body
 
 - Headers
   - Authorization: `Bearer <idToken>`
+
+## Reward Homepage
+
+- URL
+
+  - `/rewardhome`
+
+- Method
+
+  - `GET`
+
+- Headers
+  - Authorization: `Bearer <idToken>`
+
+## Reward List
+
+- URL
+
+  - `/rewards`
+
+- Method
+
+  - `GET`
+
+- Headers
+  - Authorization: `Bearer <idToken>`
+
+## Reward Detail
+
+- URL
+
+  - `/rewarddetail`
+
+- Method
+
+  - `GET`
+
+- Headers
+  - Authorization: `Bearer <idToken>`
+
+## Redeem Reward
+
+- URL
+
+  - `/redeemreward`
+
+- Method
+
+  - `POST`
+
+- Request Body
+
+  - `rewardId` as int
+
+- Headers
+  - Authorization: `Bearer <idToken>`
+
+## Use Reward
+
+- URL
+
+  - `/usereward`
+
+- Method
+
+  - `POST`
+
+- Request Body
+
+  - `rewardId ` as int
+
+- Headers
+  - Authorization: `Bearer <idToken>`

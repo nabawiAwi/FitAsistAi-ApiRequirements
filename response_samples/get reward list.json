@@ -1,0 +1,23 @@
+{
+    "error": false,
+    "message": "Rewards list fetched successfully",
+    "category": "Entertain",
+    "categoryRewards": [
+        {
+            "id": 1,
+            "bannerUrl": "https://cdn.statically.io/og/cat_rewards_1.jpg",
+            "title": "Diskon 50% Netflix",
+            "partner": "Netflix",
+            "pointsNeeded": 500,
+            "isRedeemed": true
+        },
+        {
+            "id": 2,
+            "bannerUrl": "https://cdn.statically.io/og/hot_deals_2.jpg",
+            "title": "Gratis Ongkir 20.000 GoFood",
+            "partner": "Gojek",
+            "pointsNeeded": 750,
+            "isRedeemed": false
+        }
+    ]
+}
