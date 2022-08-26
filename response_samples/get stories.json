@@ -1,0 +1,23 @@
+{
+  "error": false,
+  "message": "Stories fetched successfully",
+  "stories": [
+    {
+      "id": 1,
+      "name": "Thomas Sangster",
+      "caption": "Bagaimana caramu untuk mengajak masyarakat melestarikan lingkungan?",
+      "photoUrl": "https://cdn.statically.io/og/Hello%20World.jpg",
+      "createdAt": 1661487565,
+      "likesCount": 69,
+      "isLiked": true
+    },
+    {
+      "id": 2,
+      "name": "Johny Plate",
+      "caption": "Ayo kita blokir GitHub!",
+      "createdAt": 1661487565,
+      "likesCount": 0,
+      "isLiked": false
+    }
+  ]
+}
