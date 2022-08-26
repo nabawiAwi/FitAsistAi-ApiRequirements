@@ -1,0 +1,38 @@
+{
+    "error": false,
+    "message": "Reward homepage fetched successfully",
+    "totalPoints": 300,
+    "hotDealsRewards": [
+        {
+            "id": 1,
+            "bannerUrl": "https://cdn.statically.io/og/hot_deals_1.jpg",
+            "title": "Diskon 50% Netflix",
+            "partner": "Netflix",
+            "pointsNeeded": 500
+        },
+        {
+            "id": 2,
+            "bannerUrl": "https://cdn.statically.io/og/hot_deals_2.jpg",
+            "title": "Gratis Ongkir 20.000 GoFood",
+            "partner": "Gojek",
+            "pointsNeeded": 750
+        }
+    ],
+    "donationRewards": [
+        {
+            "id": 1,
+            "bannerUrl": "https://cdn.statically.io/og/donation_1.jpg",
+            "title": "Rp10.000 Donation",
+            "partner": "Greenpeace",
+            "pointsNeeded": 1000
+        },
+        {
+            "id": 2,
+            "bannerUrl": "https://cdn.statically.io/og/donation_2.jpg",
+            "title": "Rp5.000 Donation",
+            "partner": "Greenpeace",
+            "pointsNeeded": 500
+        }
+    ]
+}
+  
