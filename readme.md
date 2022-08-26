@@ -163,6 +163,112 @@ Dear our cloud computing team, here's the specification of required API endpoint
 - Headers
   - Authorization: `Bearer <idToken>`
 
+# Get Stories
+
+- URL
+
+  - `/stories`
+
+- Parameters
+
+  - `page` as int, optional
+  - `size` as int, optional
+
+- Method
+
+  - `GET`
+
+- Headers
+  - Authorization: `Bearer <token>`
+
+# Get Story Comments
+
+- URL
+
+  - `/comments`
+
+- Parameters
+
+  - `storyId` as int
+
+- Method
+
+  - `GET`
+
+- Headers
+  - Authorization: `Bearer <token>`
+
+# Post a New Story
+
+- URL
+
+  - `/poststory`
+
+- Method
+  - `POST`
+
+Headers
+
+- Content-Type: multipart/form-data
+- Authorization: `Bearer <token>`
+
+Request Body
+
+- `caption` as string
+- `photo` as file, optional, must be a valid image file, max size 1MB
+
+# Post a Comment
+
+- URL
+
+  - `/postcomment`
+
+- Method
+
+  - `POST`
+
+- Request Body
+
+  - `storyId` as int
+  - `content` as string
+
+- Headers
+  - Authorization: `Bearer <idToken>`
+
+# Like a Story
+
+- URL
+
+  - `/likestory`
+
+- Method
+
+  - `POST`
+
+- Request Body
+
+  - `storyId` as int
+
+- Headers
+  - Authorization: `Bearer <idToken>`
+
+# Like a Comment
+
+- URL
+
+  - `/likecomment`
+
+- Method
+
+  - `POST`
+
+- Request Body
+
+  - `commentId` as int
+
+- Headers
+  - Authorization: `Bearer <idToken>`
+
 ## Reward Homepage
 
 - URL
