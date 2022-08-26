@@ -1,0 +1,22 @@
+{
+  "error": false,
+  "message": "Detail fetched successfully",
+  "comments": [
+    {
+      "id": 1,
+      "name": "Sintia Amet",
+      "content": "Kalo aku sih masih bingung yaw",
+      "createdAt": 1661487565,
+      "likesCount": 0,
+      "isLiked": false
+    },
+    {
+      "id": 2,
+      "name": "Lorem Sumargo",
+      "content": "Hai dunia gembiralah",
+      "createdAt": 1661487565,
+      "likesCount": 0,
+      "isLiked": true
+    }
+  ]
+}
