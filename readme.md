@@ -163,7 +163,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
 - Headers
   - Authorization: `Bearer <idToken>`
 
-# Get Stories
+## Get Stories
 
 - URL
 
@@ -181,7 +181,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
 - Headers
   - Authorization: `Bearer <token>`
 
-# Get Story Comments
+## Get Story Comments
 
 - URL
 
@@ -198,7 +198,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
 - Headers
   - Authorization: `Bearer <token>`
 
-# Get Story Likes
+## Get Story Likes
 
 - URL
 
@@ -215,7 +215,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
 - Headers
   - Authorization: `Bearer <token>`
 
-# Post a New Story
+## Post a New Story
 
 - URL
 
@@ -235,7 +235,7 @@ Request Body
 - `caption` as string
 - `photo` as file, optional, must be a valid image file, max size 1MB
 
-# Post a Comment
+## Post a Comment
 
 - URL
 
@@ -255,7 +255,7 @@ Request Body
   - Content-Type: multipart/form-data
   - Authorization: `Bearer <idToken>`
 
-# Like a Story
+## Like a Story
 
 - URL
 
@@ -272,7 +272,7 @@ Request Body
 - Headers
   - Authorization: `Bearer <idToken>`
 
-# Like a Comment
+## Like a Comment
 
 - URL
 
