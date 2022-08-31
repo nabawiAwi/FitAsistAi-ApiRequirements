@@ -198,6 +198,23 @@ Dear our cloud computing team, here's the specification of required API endpoint
 - Headers
   - Authorization: `Bearer <token>`
 
+# Get Story Likes
+
+- URL
+
+  - `/likes`
+
+- Parameters
+
+  - `storyId` as int
+
+- Method
+
+  - `GET`
+
+- Headers
+  - Authorization: `Bearer <token>`
+
 # Post a New Story
 
 - URL
@@ -214,6 +231,7 @@ Headers
 
 Request Body
 
+- `campaignId` as int
 - `caption` as string
 - `photo` as file, optional, must be a valid image file, max size 1MB
 
@@ -231,8 +249,10 @@ Request Body
 
   - `storyId` as int
   - `content` as string
+  - `photo` as file, optional, must be a valid image file, max size 1MB
 
 - Headers
+  - Content-Type: multipart/form-data
   - Authorization: `Bearer <idToken>`
 
 # Like a Story
