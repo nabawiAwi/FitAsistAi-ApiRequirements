@@ -312,6 +312,23 @@ Request Body
 
   - `GET`
 
+- Parameters
+
+  - `rewardCategory` as string
+
+- Headers
+  - Authorization: `Bearer <idToken>`
+
+## My Reward List
+
+- URL
+
+  - `/myrewards`
+
+- Method
+
+  - `GET`
+
 - Headers
   - Authorization: `Bearer <idToken>`
 

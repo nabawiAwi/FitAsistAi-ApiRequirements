@@ -9,15 +9,17 @@
             "title": "Diskon 50% Netflix",
             "partner": "Netflix",
             "pointsNeeded": 500,
-            "isRedeemed": true
+            "maxRedeem": 3,
+            "numberOfRedeem": 1
         },
         {
             "id": 2,
-            "bannerUrl": "https://cdn.statically.io/og/hot_deals_2.jpg",
+            "bannerUrl": "https://cdn.statically.io/og/cat_rewards_2.jpg",
             "title": "Gratis Ongkir 20.000 GoFood",
             "partner": "Gojek",
             "pointsNeeded": 750,
-            "isRedeemed": false
+            "maxRedeem": 2,
+            "numberOfRedeem": 2
         }
     ]
 }

@@ -2,10 +2,10 @@
     "error": false,
     "message": "Reward detail fetched successfully",
     "id": 1,
-    "bannerUrl": "https://cdn.statically.io/og/cat_rewards_1.jpg",
+    "bannerUrl": "https://cdn.statically.io/og/detail_rewards_1.jpg",
     "title": "Diskon 50% Netflix",
     "pointsNeeded": 500,
-    "validity": "2022-01-08T06:34:18.598Z",
+    "validity": "1662138000",
     "description": "Lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy  text ever since the 1500s.",
     "termsCondition": [
         "Lorem Ipsum is simply dummy text of the printing and  typesetting industry.",
