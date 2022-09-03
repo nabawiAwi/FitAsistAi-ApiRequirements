@@ -231,7 +231,7 @@ Headers
 
 Request Body
 
-- `campaignId` as int
+- `campaignId` as int, optional
 - `caption` as string
 - `photo` as file, optional, must be a valid image file, max size 1MB
 
