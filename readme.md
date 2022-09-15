@@ -344,7 +344,7 @@ Request Body
 
 - Parameters
 
-  - `id` as int
+  - `rewardId` as int
   
 - Headers
   - Authorization: `Bearer <idToken>`
