@@ -342,6 +342,10 @@ Request Body
 
   - `GET`
 
+- Parameters
+
+  - `id` as int
+  
 - Headers
   - Authorization: `Bearer <idToken>`
 
