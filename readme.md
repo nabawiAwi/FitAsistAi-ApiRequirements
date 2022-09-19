@@ -20,7 +20,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `q` as string, optional. -> queries/keywords
 
 - Headers
-  - Authorization: `Bearer <idToken>`
+  - Authorization: `Bearer <idToken>`, optional
 
 ## Dashboard
 
@@ -46,7 +46,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `GET`
 
 - Headers
-  - Authorization: `Bearer <idToken>`
+  - Authorization: `Bearer <idToken>`, optional
 
 ## Campaign Detail
 
@@ -63,7 +63,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `id` as int
 
 - Headers
-  - Authorization: `Bearer <idToken>`
+  - Authorization: `Bearer <idToken>`, optional
 
 ## Task Completion Proof
 
@@ -179,7 +179,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `GET`
 
 - Headers
-  - Authorization: `Bearer <token>`
+  - Authorization: `Bearer <token>`, optional
 
 ## Get Story Comments
 
@@ -196,7 +196,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `GET`
 
 - Headers
-  - Authorization: `Bearer <token>`
+  - Authorization: `Bearer <token>`, optional
 
 ## Get Story Likes
 
@@ -213,7 +213,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `GET`
 
 - Headers
-  - Authorization: `Bearer <token>`
+  - Authorization: `Bearer <token>`, optional
 
 ## Post a New Story
 
@@ -300,7 +300,7 @@ Request Body
   - `GET`
 
 - Headers
-  - Authorization: `Bearer <idToken>`
+  - Authorization: `Bearer <idToken>`, optional
 
 ## Reward List
 
@@ -317,7 +317,7 @@ Request Body
   - `rewardCategory` as string
 
 - Headers
-  - Authorization: `Bearer <idToken>`
+  - Authorization: `Bearer <idToken>`, optional
 
 ## My Reward List
 
@@ -347,7 +347,7 @@ Request Body
   - `rewardId` as int
   
 - Headers
-  - Authorization: `Bearer <idToken>`
+  - Authorization: `Bearer <idToken>`, optional
 
 ## Redeem Reward
 
