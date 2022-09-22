@@ -1,7 +1,6 @@
 {
     "error": false,
     "message": "Reward detail fetched successfully",
-    "id": 1,
     "bannerUrl": "https://cdn.statically.io/og/detail_rewards_1.jpg",
     "title": "Diskon 50% Netflix",
     "pointsNeeded": 500,

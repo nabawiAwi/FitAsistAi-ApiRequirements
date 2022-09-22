@@ -20,7 +20,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `q` as string, optional. -> queries/keywords
 
 - Headers
-  - Authorization: `Bearer <idToken>`
+  - Authorization: `Bearer <idToken>`, optional
 
 ## Dashboard
 
@@ -46,7 +46,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `GET`
 
 - Headers
-  - Authorization: `Bearer <idToken>`
+  - Authorization: `Bearer <idToken>`, optional
 
 ## Campaign Detail
 
@@ -63,7 +63,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `id` as int
 
 - Headers
-  - Authorization: `Bearer <idToken>`
+  - Authorization: `Bearer <idToken>`, optional
 
 ## Task Completion Proof
 
@@ -306,7 +306,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `GET`
 
 - Headers
-  - Authorization: `Bearer <idToken>`
+  - Authorization: `Bearer <idToken>`, optional
 
 ## Reward List
 
@@ -323,7 +323,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `rewardCategory` as string
 
 - Headers
-  - Authorization: `Bearer <idToken>`
+  - Authorization: `Bearer <idToken>`, optional
 
 ## My Reward List
 
@@ -348,8 +348,12 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
   - `GET`
 
+- Parameters
+
+  - `rewardId` as int
+
 - Headers
-  - Authorization: `Bearer <idToken>`
+  - Authorization: `Bearer <idToken>`, optional
 
 ## Redeem Reward
 
