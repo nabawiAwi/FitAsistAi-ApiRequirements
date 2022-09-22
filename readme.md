@@ -179,41 +179,45 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `GET`
 
 - Headers
-  - Authorization: `Bearer <token>`
+  - (optional) Authorization: `Bearer <token>`
 
-## Get Story Comments
+## Get Story Replies
 
 - URL
 
-  - `/comments`
+  - `/replies`
 
 - Parameters
 
   - `storyId` as int
+  - `page` as int, optional
+  - `size` as int, optional
 
 - Method
 
   - `GET`
 
 - Headers
-  - Authorization: `Bearer <token>`
+  - (optional) Authorization: `Bearer <token>`
 
-## Get Story Likes
+## Get Story Supporters
 
 - URL
 
-  - `/likes`
+  - `/supporters`
 
 - Parameters
 
   - `storyId` as int
+  - `page` as int, optional
+  - `size` as int, optional
 
 - Method
 
   - `GET`
 
 - Headers
-  - Authorization: `Bearer <token>`
+  - (optional) Authorization: `Bearer <token>`
 
 ## Post a New Story
 
@@ -222,24 +226,25 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `/poststory`
 
 - Method
+
   - `POST`
 
-Headers
+- Headers
 
-- Content-Type: multipart/form-data
-- Authorization: `Bearer <token>`
+  - Content-Type: multipart/form-data
+  - Authorization: `Bearer <token>`
 
-Request Body
+- Request Body
 
-- `campaignId` as int, optional
-- `caption` as string
-- `photo` as file, optional, must be a valid image file, max size 1MB
+  - `campaignId` as int, optional
+  - `caption` as string
+  - `photo` as file, optional
 
-## Post a Comment
+## Post a New Reply
 
 - URL
 
-  - `/postcomment`
+  - `/postreply`
 
 - Method
 
@@ -248,18 +253,19 @@ Request Body
 - Request Body
 
   - `storyId` as int
-  - `content` as string
-  - `photo` as file, optional, must be a valid image file, max size 1MB
+  - `caption` as string
+  - `photo` as file, optional
 
 - Headers
+
   - Content-Type: multipart/form-data
   - Authorization: `Bearer <idToken>`
 
-## Like a Story
+## Support a Story
 
 - URL
 
-  - `/likestory`
+  - `/supportstory`
 
 - Method
 
@@ -272,11 +278,11 @@ Request Body
 - Headers
   - Authorization: `Bearer <idToken>`
 
-## Like a Comment
+## Support a Comment
 
 - URL
 
-  - `/likecomment`
+  - `/supportcomment`
 
 - Method
 
@@ -284,7 +290,7 @@ Request Body
 
 - Request Body
 
-  - `commentId` as int
+  - `replyId` as int
 
 - Headers
   - Authorization: `Bearer <idToken>`
