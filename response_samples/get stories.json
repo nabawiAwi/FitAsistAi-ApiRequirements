@@ -5,7 +5,6 @@
     {
       "id": 1,
       "name": "John Doe",
-      "username": "@johndoe",
       "avatarUrl": "https://i.pravatar.cc/300?img:$it",
       "caption": "Bagaimana caramu untuk mengajak masyarakat melestarikan lingkungan?",
       "attachedPhotoUrl": "https://cdn.statically.io/og/theme:dark/Story%20no.%20$it.jpg",
