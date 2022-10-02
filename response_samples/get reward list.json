@@ -1,7 +1,6 @@
 {
     "error": false,
     "message": "Rewards list fetched successfully",
-    "category": "Entertain",
     "categoryRewards": [
         {
             "id": 1,
