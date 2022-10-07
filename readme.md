@@ -355,6 +355,24 @@ Dear our cloud computing team, here's the specification of required API endpoint
 - Headers
   - Authorization: `Bearer <idToken>`, optional
 
+## My Reward Detail
+
+- URL
+
+  - `/myrewarddetail`
+
+- Method
+
+  - `GET`
+
+- Parameters
+
+  - `rewardId` as int
+
+- Headers
+  - Authorization: `Bearer <idToken>`, optional
+
+
 ## Redeem Reward
 
 - URL
