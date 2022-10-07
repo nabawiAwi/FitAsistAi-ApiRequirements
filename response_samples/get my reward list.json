@@ -7,14 +7,16 @@
             "bannerUrl": "https://cdn.statically.io/og/my_rewards_1.jpg",
             "title": "Diskon 50% Netflix",
             "partner": "Netflix",
-            "category": "Entertain"
+            "category": "Entertain",
+            "claimStatus": 3
         },
         {
             "id": 2,
             "bannerUrl": "https://cdn.statically.io/og/my_rewards_1.jpg",
             "title": "Gratis Ongkir 20.000 GoFood",
             "partner": "Gojek",
-            "category": "Environment"
+            "category": "Environment",
+            "claimStatus": 3
         }
     ]
 }
