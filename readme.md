@@ -386,6 +386,27 @@ Dear our cloud computing team, here's the specification of required API endpoint
 - Request Body
 
   - `rewardId` as int
+  - `rewardCategory` as string
+
+- Headers
+  - Authorization: `Bearer <idToken>`
+
+## Request Reward
+
+- URL
+
+  - `/requestreward`
+
+- Method
+
+  - `POST`
+
+- Request Body
+
+  - `rewardId ` as int
+  - `email ` as string
+  - `walletType ` as string
+  - `walletNumber ` as string
 
 - Headers
   - Authorization: `Bearer <idToken>`
