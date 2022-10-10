@@ -18,5 +18,6 @@
         "Lorem Ipsum is simply dummy text of the printing."
     ],
     "maxRedeem": 3,
-    "numberOfRedeem": 1
+    "numberOfRedeem": 1,
+    "category": "Entertain"
 }
