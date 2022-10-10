@@ -17,5 +17,6 @@
         "Lorem Ipsum is simply dummy text.",
         "Lorem Ipsum is simply dummy text of the printing."
     ],
-    "claimStatus": 3
+    "claimStatus": 3,
+    "category": "Entertain"
 }
