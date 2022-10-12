@@ -2,7 +2,7 @@
     "error": false,
     "message": "Reward homepage fetched successfully",
     "totalPoints": 300,
-    "eWalletRewards": [
+    "walletRewards": [
         {
             "id": 1,
             "bannerUrl": "https://cdn.statically.io/og/hot_deals_1.jpg",
