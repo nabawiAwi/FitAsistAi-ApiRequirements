@@ -1,12 +1,13 @@
 {
     "error": false,
     "message": "Rewards list fetched successfully",
-    "categoryRewards": [
+    "rewards": [
         {
             "id": 1,
             "bannerUrl": "https://cdn.statically.io/og/cat_rewards_1.jpg",
             "title": "Diskon 50% Netflix",
             "partner": "Netflix",
+            "category": "Entertain",
             "pointsNeeded": 500,
             "maxRedeem": 3,
             "numberOfRedeem": 1
@@ -16,6 +17,7 @@
             "bannerUrl": "https://cdn.statically.io/og/cat_rewards_2.jpg",
             "title": "Gratis Ongkir 20.000 GoFood",
             "partner": "Gojek",
+            "category": "Entertain",
             "pointsNeeded": 750,
             "maxRedeem": 2,
             "numberOfRedeem": 2
