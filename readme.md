@@ -367,10 +367,10 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
 - Parameters
 
-  - `rewardId` as int
+  - `claimId` as int
 
 - Headers
-  - Authorization: `Bearer <idToken>`, optional
+  - Authorization: `Bearer <idToken>`
 
 
 ## Redeem Reward
