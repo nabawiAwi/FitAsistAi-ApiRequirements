@@ -236,9 +236,9 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
 - Request Body
 
-  - `campaignId` as int, optional
+  - `sharedCampaignId` as int, optional
   - `caption` as string
-  - `photo` as file, optional
+  - `attachedPhoto` as file, optional
 
 ## Post a New Reply
 
@@ -254,7 +254,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
   - `storyId` as int
   - `caption` as string
-  - `photo` as file, optional
+  - `attachedPhoto` as file, optional
 
 - Headers
 
@@ -278,11 +278,11 @@ Dear our cloud computing team, here's the specification of required API endpoint
 - Headers
   - Authorization: `Bearer <idToken>`
 
-## Support a Comment
+## Support a Reply
 
 - URL
 
-  - `/supportcomment`
+  - `/supportreply`
 
 - Method
 

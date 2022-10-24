@@ -1,7 +1,7 @@
 {
   "error": false,
   "message": "Fetched successfully",
-  "likedBy": [
+  "supporters": [
     {
       "id": 1,
       "avatarUrl": "https://i.pravatar.cc/300?img:$it",
