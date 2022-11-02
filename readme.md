@@ -345,7 +345,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
 - URL
 
-  - `/supportstory`
+  - `/unsupportstory`
 
 - Method
 
