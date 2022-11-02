@@ -341,6 +341,27 @@ Dear our cloud computing team, here's the specification of required API endpoint
 - Samples
   - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/post%20support%20a%20story.json)
 
+## Unsupport a Story
+
+- URL
+
+  - `/supportstory`
+
+- Method
+
+  - `POST`
+
+- Request Body
+
+  - `storyId` as int
+
+- Headers
+
+  - Authorization: `Bearer <idToken>`
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/post%20unsupport%20a%20story.json)
+
 ## Support a Reply
 
 - URL
