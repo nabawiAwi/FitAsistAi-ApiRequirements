@@ -20,7 +20,11 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `q` as string, optional. -> queries/keywords
 
 - Headers
+
   - Authorization: `Bearer <idToken>`, optional
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20browse%20campaign.json)
 
 ## Dashboard
 
@@ -33,7 +37,11 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `GET`
 
 - Headers
+
   - Authorization: `Bearer <idToken>`
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20dashboard.json)
 
 ## Categories
 
@@ -46,7 +54,11 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `GET`
 
 - Headers
+
   - Authorization: `Bearer <idToken>`, optional
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20categories.json)
 
 ## Campaign Detail
 
@@ -63,7 +75,12 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `id` as int
 
 - Headers
+
   - Authorization: `Bearer <idToken>`, optional
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20detail%20campaign%201.json)
+  - [Sample 2](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20detail%20campaign%202.json)
 
 ## Task Completion Proof
 
@@ -82,8 +99,12 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `caption` as string, optional
 
 - Headers
+
   - Content-Type: `multipart/form-data`
   - Authorization: `Bearer <idToken>`
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/post%20task%20completion%20proof.json)
 
 ## Submit Campaign Completion
 
@@ -100,7 +121,11 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `campaignId ` as int
 
 - Headers
+
   - Authorization: `Bearer <idToken>`
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/post%20submit%20campaign%20completion.json)
 
 ## Contributions
 
@@ -113,7 +138,11 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `GET`
 
 - Headers
+
   - Authorization: `Bearer <idToken>`
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20contributions.json)
 
 ## Join Campaign
 
@@ -130,7 +159,11 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `campaignId ` as int
 
 - Headers
+
   - Authorization: `Bearer <idToken>`
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/post%20join%20campaign.json)
 
 ## Get Saved Recognisables
 
@@ -143,7 +176,11 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `GET`
 
 - Headers
+
   - Authorization: `Bearer <idToken>`
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20saved%20recognisables.json)
 
 ## Save Recognisable
 
@@ -161,7 +198,11 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `confidencePercent` as int (0-100)
 
 - Headers
+
   - Authorization: `Bearer <idToken>`
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/post%20save%20recognisable.json)
 
 ## Get Stories
 
@@ -179,7 +220,11 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `GET`
 
 - Headers
+
   - (optional) Authorization: `Bearer <token>`
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20stories.json)
 
 ## Get Story Replies
 
@@ -198,7 +243,11 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `GET`
 
 - Headers
+
   - (optional) Authorization: `Bearer <token>`
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20story%20replies.json)
 
 ## Get Story Supporters
 
@@ -217,7 +266,11 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `GET`
 
 - Headers
+
   - (optional) Authorization: `Bearer <token>`
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20story%20supporters.json)
 
 ## Post a New Story
 
@@ -240,6 +293,9 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `caption` as string
   - `attachedPhoto` as file, optional
 
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/post%20a%20new%20story.json)
+
 ## Post a New Reply
 
 - URL
@@ -261,6 +317,9 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - Content-Type: multipart/form-data
   - Authorization: `Bearer <idToken>`
 
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/post%20a%20new%20reply.json)
+
 ## Support a Story
 
 - URL
@@ -276,7 +335,11 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `storyId` as int
 
 - Headers
+
   - Authorization: `Bearer <idToken>`
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/post%20support%20a%20story.json)
 
 ## Support a Reply
 
@@ -293,7 +356,11 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `replyId` as int
 
 - Headers
+
   - Authorization: `Bearer <idToken>`
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/post%20support%20a%20reply.json)
 
 ## Reward Homepage
 
@@ -306,7 +373,11 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `GET`
 
 - Headers
+
   - Authorization: `Bearer <idToken>`, optional
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20reward%20homepage.json)
 
 ## Reward List
 
@@ -323,7 +394,11 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `rewardCategory` as string
 
 - Headers
+
   - Authorization: `Bearer <idToken>`, optional
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20reward%20list.json)
 
 ## My Reward List
 
@@ -336,7 +411,11 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `GET`
 
 - Headers
+
   - Authorization: `Bearer <idToken>`
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20my%20reward%20list.json)
 
 ## Reward Detail
 
@@ -353,7 +432,11 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `rewardId` as int
 
 - Headers
+
   - Authorization: `Bearer <idToken>`, optional
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20reward%20detail.json)
 
 ## My Reward Detail
 
@@ -367,11 +450,14 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
 - Parameters
 
-  - `claimId` as int
+  - `rewardId` as int
 
 - Headers
-  - Authorization: `Bearer <idToken>`
 
+  - Authorization: `Bearer <idToken>`, optional
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20my%20reward%20detail.json)
 
 ## Redeem Reward
 
@@ -389,7 +475,11 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `rewardCategory` as string
 
 - Headers
+
   - Authorization: `Bearer <idToken>`
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/post%20redeem%20reward.json)
 
 ## Request Reward
 
@@ -409,7 +499,11 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `walletNumber ` as string
 
 - Headers
+
   - Authorization: `Bearer <idToken>`
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/post%20request%20reward.json)
 
 ## Use Reward
 
@@ -426,4 +520,25 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - `rewardId ` as int
 
 - Headers
+
   - Authorization: `Bearer <idToken>`
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/post%20use%20reward.json)
+
+## Get Profile
+
+- URL
+
+  - `/profile`
+
+- Method
+
+  - `GET`
+
+- Headers
+
+  - Authorization: `Bearer <idToken>`
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20profile.json)
