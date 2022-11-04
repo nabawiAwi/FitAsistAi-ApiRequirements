@@ -584,3 +584,37 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
 - Samples
   - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20profile.json)
+
+## Get Stories History
+
+- URL
+
+  - `/storieshistory`
+
+- Method
+
+  - `GET`
+
+- Headers
+
+  - Authorization: `Bearer <idToken>`
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20stories%20history.json)
+
+## Get Campaigns History
+
+- URL
+
+  - `/campaignshistory`
+
+- Method
+
+  - `GET`
+
+- Headers
+
+  - Authorization: `Bearer <idToken>`
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20campaigns%20history.json)

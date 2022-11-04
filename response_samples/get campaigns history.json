@@ -1,0 +1,21 @@
+{
+  "error": false,
+  "message": "success",
+  "campaignsHistory": [
+    {
+      "id": 1,
+      "posterUrl": "https://cdn.statically.io/og/food_waste_1.jpg",
+      "title": "No More Food Waste: Hassle-Free Compost",
+      "finishedAt": 1665645721,
+      "earnedPoints": 300,
+      "endAt": 1665645721,
+      "completionStatus": 3,
+      "categories": [
+        {
+          "name": "Air Pollution",
+          "colorHex": "#BADA55"
+        }
+      ]
+    }
+  ]
+}
