@@ -513,11 +513,11 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
 - Parameters
 
-  - `rewardId` as int
+  - `claimId` as int
 
 - Headers
 
-  - Authorization: `Bearer <idToken>`, optional
+  - Authorization: `Bearer <idToken>`
 
 - Samples
   - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20my%20reward%20detail.json)
