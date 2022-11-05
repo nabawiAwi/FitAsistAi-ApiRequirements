@@ -226,6 +226,27 @@ Dear our cloud computing team, here's the specification of required API endpoint
 - Samples
   - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20stories.json)
 
+## Get Story Detail
+
+- URL
+
+  - `/storyDetail`
+
+- Parameters
+
+  - `id` as int
+
+- Method
+
+  - `GET`
+
+- Headers
+
+  - (optional) Authorization: `Bearer <token>`
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20story%20detail.json)
+
 ## Get Story Replies
 
 - URL

@@ -1,0 +1,33 @@
+{
+  "error": false,
+  "message": "Stories fetched successfully",
+  "id": 1,
+  "name": "John Doe",
+  "avatarUrl": "https://i.pravatar.cc/300?img:$it",
+  "caption": "Bagaimana caramu untuk mengajak masyarakat melestarikan lingkungan?",
+  "attachedPhotoUrl": "https://cdn.statically.io/og/theme:dark/Story%20no.%20$it.jpg",
+  "sharedCampaign": {
+    "id": 1,
+    "posterUrl": "https://cdn.statically.io/og/theme:dark/shared_campaign_$it.jpg",
+    "title": "Shared Campaign $it",
+    "endAt": 1665735727,
+    "categories": [
+      {
+        "name": "Air Pollution",
+        "colorHex": "#BADA55"
+      }
+    ],
+    "participantsCount": 69420,
+    "isTrending": true,
+    "isNew": true
+  },
+  "createdAt": 1663863110,
+  "supportersCount": 69,
+  "repliesCount": 420,
+  "isSupported": true,
+  "supportersAvatarsUrl": [
+    "https://i.pravatar.cc/300?img:${it + 1}",
+    "https://i.pravatar.cc/300?img:${it + 2}",
+    "https://i.pravatar.cc/300?img:${it + 3}"
+  ]
+}
