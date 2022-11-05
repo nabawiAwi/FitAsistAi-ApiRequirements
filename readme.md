@@ -230,7 +230,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
 - URL
 
-  - `/storyDetail`
+  - `/storydetail`
 
 - Parameters
 
