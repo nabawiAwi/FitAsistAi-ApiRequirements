@@ -1,0 +1,41 @@
+{
+  "error": false,
+  "message": "success",
+  "notifications": [
+    {
+      "id": 1,
+      "timestamp": 1663863110,
+      "content": "Harris Kamala, Asinan Medan, and 7 others supported your post.",
+      "iconUrl": "https://i.pravatar.cc/300?img:1",
+      "deeplink": "https://ecosense.id/deeplinks/storydetail/1"
+    },
+    {
+      "id": 2,
+      "timestamp": 1663863110,
+      "content": "Biden Joe liked your reply: Thank you for your support ❤️",
+      "iconUrl": "https://i.pravatar.cc/300?img:1",
+      "deeplink": "https://ecosense.id/deeplinks/storydetail/1"
+    },
+    {
+      "id": 3,
+      "timestamp": 1663863110,
+      "content": "Your reward has been sent to you",
+      "iconUrl": "https://i.pravatar.cc/300?img:1",
+      "deeplink": "https://ecosense.id/deeplinks/rewarddetail/1"
+    },
+    {
+      "id": 4,
+      "timestamp": 1663863110,
+      "content": "Promise for the Ocean campaign has been approved by the team",
+      "iconUrl": "https://i.pravatar.cc/300?img:1",
+      "deeplink": "https://ecosense.id/deeplinks/campaigndetail/1"
+    },
+    {
+      "id": 5,
+      "timestamp": 1663863110,
+      "content": "Promise for the Ocean campaign ended in 1 day! Let's finish the tasks",
+      "iconUrl": "https://i.pravatar.cc/300?img:1",
+      "deeplink": "https://ecosense.id/deeplinks/campaigndetail/1"
+    }
+  ]
+}

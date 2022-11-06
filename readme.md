@@ -639,3 +639,20 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
 - Samples
   - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20campaigns%20history.json)
+
+## Get Notifications
+
+- URL
+
+  - `/notifications`
+
+- Method
+
+  - `GET`
+
+- Headers
+
+  - Authorization: `Bearer <idToken>`
+
+- Samples
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20notifications.json)
