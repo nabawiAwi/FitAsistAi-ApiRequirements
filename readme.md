@@ -650,6 +650,10 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
   - `GET`
 
+- Parameters
+
+  - `language` as string ('id' OR 'en')
+
 - Headers
 
   - Authorization: `Bearer <idToken>`
