@@ -599,6 +599,10 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
   - `GET`
 
+- Parameters
+
+  - `userId` as int, optional
+
 - Headers
 
   - Authorization: `Bearer <idToken>`
@@ -616,6 +620,10 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
   - `GET`
 
+- Parameters
+
+  - `userId` as int, optional
+
 - Headers
 
   - Authorization: `Bearer <idToken>`
@@ -632,6 +640,10 @@ Dear our cloud computing team, here's the specification of required API endpoint
 - Method
 
   - `GET`
+
+- Parameters
+
+  - `userId` as int, optional
 
 - Headers
 

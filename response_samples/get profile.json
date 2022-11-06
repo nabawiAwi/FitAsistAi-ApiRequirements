@@ -5,6 +5,7 @@
   "recentStories": [
     {
       "id": 1,
+      "userId": 1,
       "name": "John Doe",
       "avatarUrl": "https://i.pravatar.cc/300?img:$it",
       "caption": "Bagaimana caramu untuk mengajak masyarakat melestarikan lingkungan?",

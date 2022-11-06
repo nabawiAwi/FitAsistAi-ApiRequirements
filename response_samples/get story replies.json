@@ -4,6 +4,7 @@
   "replies": [
     {
       "id": 1,
+      "userId": 1,
       "name": "Siti",
       "avatarUrl": "https://i.pravatar.cc/300?img:$it",
       "caption": "Lorem ipsum dolor sit amet",

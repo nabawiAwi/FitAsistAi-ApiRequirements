@@ -3,7 +3,7 @@
   "message": "Fetched successfully",
   "supporters": [
     {
-      "id": 1,
+      "userId": 1,
       "avatarUrl": "https://i.pravatar.cc/300?img:$it",
       "name": "Siti ($it)"
     }
