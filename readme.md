@@ -454,7 +454,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
 - Parameters
 
-  - `rewardCategory` as string
+  - `categoryId` as int
 
 - Headers
 
