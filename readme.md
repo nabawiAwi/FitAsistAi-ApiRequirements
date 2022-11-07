@@ -608,7 +608,8 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - Authorization: `Bearer <idToken>`
 
 - Samples
-  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20profile.json)
+  - [Self profile](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20profile.json)
+  - [Other's profile](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20others%20profile.json)
 
 ## Get Stories History
 
