@@ -1,6 +1,7 @@
 {
   "error": false,
   "message": "Profile fetched successfully",
+  "userId": 1,
   "name": "John Doe",
   "avatarUrl": "https://i.pravatar.cc/300?img:$it",
   "recentStories": [
