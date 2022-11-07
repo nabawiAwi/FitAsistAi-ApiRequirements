@@ -605,7 +605,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
 - Headers
 
-  - Authorization: `Bearer <idToken>`
+  - Authorization: `Bearer <idToken>`, optional
 
 - Samples
   - [Self profile](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20profile.json)
@@ -627,7 +627,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
 - Headers
 
-  - Authorization: `Bearer <idToken>`
+  - Authorization: `Bearer <idToken>`, optional
 
 - Samples
   - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20stories%20history.json)
@@ -648,7 +648,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
 - Headers
 
-  - Authorization: `Bearer <idToken>`
+  - Authorization: `Bearer <idToken>`, optional
 
 - Samples
   - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20campaigns%20history.json)
