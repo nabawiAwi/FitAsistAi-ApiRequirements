@@ -535,7 +535,6 @@ Dear our cloud computing team, here's the specification of required API endpoint
 - Request Body
 
   - `rewardId` as int
-  - `rewardCategory` as string
 
 - Headers
 
