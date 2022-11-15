@@ -6,6 +6,7 @@
       "id": 1,
       "name": "7 Days of Gardening",
       "endDate": 1665645721,
+      "completionStatus": 1,
       "missionLeft": 3,
       "missionCompleted": 2,
       "uncompletedMissions": [
@@ -28,8 +29,9 @@
     },
     {
       "id": 2,
-      "campaignName": "9 Days of Being Useless",
-      "campaignEndDate": 1665645721,
+      "name": "9 Days of Being Useless",
+      "endDate": 1665645721,
+      "completionStatus": 1,
       "missionLeft": 2,
       "missionCompleted": 1,
       "uncompletedMissions": [
