@@ -6,8 +6,17 @@
       "id": 1,
       "posterUrl": "https://cdn.statically.io/og/food_waste_1.jpg",
       "title": "No More Food Waste: Hassle-Free Compost",
-      "endDate": "2022-01-08T06:34:18.598Z",
-      "category": ["Air Pollution", "Food Waste"],
+      "endDate": 1665645721,
+      "categories": [
+        {
+          "name": "Air Pollution",
+          "colorHex": "#03DBC6"
+        },
+        {
+          "name": "Waste Free",
+          "colorHex": "#E2BA13"
+        }
+      ],
       "participantsCount": 69420,
       "isTrending": true,
       "isNew": false
