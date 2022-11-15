@@ -79,10 +79,9 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - Authorization: `Bearer <idToken>`, optional
 
 - Samples
-  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20detail%20campaign%201.json)
-  - [Sample 2](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20detail%20campaign%202.json)
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20detail%20campaign.json)
 
-## Task Completion Proof
+## Mission Completion Proof
 
 - URL
 
@@ -94,7 +93,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
 
 - Request Body
 
-  - `taskId` as int
+  - `missionId` as int
   - `photo` as file, optional
   - `caption` as string, optional
 
@@ -104,7 +103,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
   - Authorization: `Bearer <idToken>`
 
 - Samples
-  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/post%20task%20completion%20proof.json)
+  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/post%20mission%20completion%20proof.json)
 
 ## Submit Campaign Completion
 
