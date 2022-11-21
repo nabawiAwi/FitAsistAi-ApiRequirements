@@ -4,6 +4,7 @@
   "campaigns": [
     {
       "id": 1,
+      "recordId": 1,
       "posterUrl": "https://cdn.statically.io/og/food_waste_1.jpg",
       "title": "No More Food Waste: Hassle-Free Compost",
       "finishedAt": 1665645721,
