@@ -73,7 +73,7 @@ Dear our cloud computing team, here's the specification of required API endpoint
 - Parameters
 
   - `id` as int
-  - `record` as int, optional
+  - `recordId` as int, optional
 
 - Headers
 
