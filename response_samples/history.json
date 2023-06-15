@@ -1,0 +1,35 @@
+[
+    {
+        "_id": "1",
+        "user_id": "2",
+        "username": "nita",
+        "type": "Push Up",
+        "times": 20,
+        "menit": 70,
+        "createdAt": "2023-06-15T16:02:33.635Z",
+        "updatedAt": "2023-06-15T16:02:33.635Z",
+        "__v": 0
+    },
+    {
+        "_id": "1",
+        "user_id": "2",
+        "username": "nita",
+        "type": "Shit Up",
+        "times": 30,
+        "menit": 10,
+        "createdAt": "2023-06-15T16:03:21.113Z",
+        "updatedAt": "2023-06-15T16:03:21.113Z",
+        "__v": 0
+    },
+    {
+        "_id": "1",
+        "user_id": "2",
+        "username": "nita",
+        "type": "Squat",
+        "times": 20,
+        "menit": 40,
+        "createdAt": "2023-06-15T16:03:49.595Z",
+        "updatedAt": "2023-06-15T16:03:49.595Z",
+        "__v": 0
+    }
+]
