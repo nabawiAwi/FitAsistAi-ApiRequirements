@@ -1,0 +1,12 @@
+{
+    "user_id": "1",
+    "username": "nita",
+    "age": 20,
+    "height": 170,
+    "weight": 60,
+    "gender": "Women",
+    "_id": "2",
+    "createdAt": "2023-06-15T15:59:38.390Z",
+    "updatedAt": "2023-06-15T15:59:38.390Z",
+    "__v": 0
+}
