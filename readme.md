@@ -1,7 +1,7 @@
 # Readme
 ---
 
-## RegiteR
+## Regiter
 
 - URL
 
@@ -15,7 +15,7 @@
 
   - `username` as string, required.
   - `email` as string, required.
-  - 'password' as string, required.
+  - `password` as string, required.
 
 - Samples
   - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20browse%20campaign.json)
