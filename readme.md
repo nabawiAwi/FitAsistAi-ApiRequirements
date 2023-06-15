@@ -18,7 +18,7 @@
   - `password` as string, required.
 
 - Samples
-  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20browse%20campaign.json)
+  - [Sample 1](https://github.com/nabawiAwi/FitAsistAi-ApiRequirements/blob/master/response_samples/register.json)
 
 
 ## Login
