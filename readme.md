@@ -17,7 +17,7 @@
   - `email` as string, required.
   - `password` as string, required.
 
-- Samples
+- Response Body
   - [Sample 1](https://github.com/nabawiAwi/FitAsistAi-ApiRequirements/blob/master/response_samples/register.json)
 
 
@@ -36,8 +36,8 @@
   - `email` as string, required.
   - 'password' as string, required.
   
-- Samples
-  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20dashboard.json)
+- Response Body
+  - [Sample 1](https://github.com/nabawiAwi/FitAsistAi-ApiRequirements/blob/master/response_samples/login.json)
 
 ## Information
 
@@ -58,10 +58,10 @@
 
 - Headers
 
-  - Authorization: `Bearer <idToken>`
+  - Authorization: `Bearer <idToken>`, required
 
-- Samples
-  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20categories.json)
+- Response Body
+  - [Sample 1](https://github.com/nabawiAwi/FitAsistAi-ApiRequirements/blob/master/response_samples/information.json)
 
 ## Profile 
 
@@ -75,10 +75,10 @@
 
 - Headers
 
-  - Authorization: `Bearer <idToken>`
+  - Authorization: `Bearer <idToken>`, required
 
-- Samples
-  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/get%20detail%20campaign.json)
+- Response Body
+  - [Sample 1](https://github.com/nabawiAwi/FitAsistAi-ApiRequirements/blob/master/response_samples/profile.json)
 
 
 ## Result  
@@ -100,10 +100,10 @@
 
 - Headers
 
-  - Authorization: `Bearer <idToken>`
+  - Authorization: `Bearer <idToken>`, required
 
-- Samples
-  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/post%20mission%20completion%20proof.json)
+- Response Body
+  - [Sample 1](https://github.com/nabawiAwi/FitAsistAi-ApiRequirements/blob/master/response_samples/result.json)
 
 
 ## History
@@ -118,7 +118,7 @@
 
 - Headers
 
-  - Authorization: `Bearer <idToken>`
+  - Authorization: `Bearer <idToken>`, required
 
-- Samples
-  - [Sample 1](https://github.com/EcoSenseID/EcoSense-ApiRequirements/blob/master/response_samples/post%20submit%20campaign%20completion.json)
+- Response Body
+  - [Sample 1](https://github.com/nabawiAwi/FitAsistAi-ApiRequirements/blob/master/response_samples/history.json)
